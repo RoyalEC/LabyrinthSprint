@@ -20,7 +20,7 @@ int main()
     print_server.listen(9002);
     print_server.start_accept();
 
-    std::cout << "Server started" << std::endl;
-
     print_server.run();
+
+    std::cout << "Server started" << std::endl;
 }
